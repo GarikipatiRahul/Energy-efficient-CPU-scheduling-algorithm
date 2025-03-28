@@ -1,0 +1,23 @@
+/* Custom styles for the dashboard */
+.task-item {
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.375rem;
+    background-color: #f3f4f6;
+    transition: all 0.3s ease;
+}
+
+.task-item:hover {
+    background-color: #e5e7eb;
+    transform: translateX(4px);
+}
+
+#memoryGauge {
+    position: relative;
+}
+
+.chart-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
